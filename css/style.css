@@ -1,0 +1,42 @@
+html {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+	padding: 0;
+	margin: 0;
+}
+
+#dark {
+	background: #fff;
+}
+
+h1 {
+	text-align: center;
+}
+
+.d-flex {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.graph {
+	vertical-align: bottom;
+}
+
+#height-before {
+	background-color: tomato;
+	width: 40px;
+	height: 100px;
+}
+
+#height-after {
+	background: springgreen;
+	width: 40px;
+	height: 0px;
+}
