@@ -1,3 +1,7 @@
+* {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #fff;
+}
 html {
 	box-sizing: border-box;
 }
@@ -13,16 +17,33 @@ p {
 }
 
 #dark {
-	background: #fff;
+	background: rgb(33, 26, 26);
 }
 
 h1 {
 	text-align: center;
+	margin: 30px auto;
 }
 
 .d-flex {
 	display: flex;
 	justify-content: space-evenly;
+}
+
+#data td {
+	padding: 10px;
+}
+
+th,
+td {
+	font-size: 20px;
+}
+
+[name='money'],
+[name='months'],
+[name='interest'] {
+	color: black;
+	font-size: 15px;
 }
 
 .graph {
